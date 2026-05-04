@@ -24,9 +24,9 @@ public class A02 {
                 }
             }
         }
-        System.out.println("\nColección completa:");
+        System.out.println("\nColección completa: ");
         System.out.println(numeros);
-        System.out.println("\nNúmeros pares:");
+        System.out.println("\nNúmeros pares: ");
         for(int n : numeros){
             if(n % 2 == 0){
                 System.out.print(n + " ");
@@ -38,7 +38,7 @@ public class A02 {
                 it.remove();
             }
         }
-        System.out.println("\n\nColección tras eliminar múltiplos de 3:");
+        System.out.println("\n\nColección tras eliminar múltiplos de 3: ");
         System.out.println(numeros);
     }
 }
