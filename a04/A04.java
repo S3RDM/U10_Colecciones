@@ -8,8 +8,7 @@ public class A04 {
             int num = (int)(Math.random() * 10) + 1;
             numeros.add(num);
         }
-        System.out.println("Lista original: ");
-        System.out.println(numeros);
+        System.out.println("Lista original: " + numeros);
         
         Iterator<Integer> it = numeros.iterator();
         while(it.hasNext()){
@@ -17,7 +16,6 @@ public class A04 {
                 it.remove();
             }
         }
-        System.out.println("\nLista tras eliminar los 5: ");
-        System.out.println(numeros);
+        System.out.println("Lista tras eliminar los 5: " + numeros);
     }
 }
