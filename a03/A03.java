@@ -14,9 +14,7 @@ public class A03 {
                 sinRepetidos.add(n);
             }
         }
-        System.out.println("Lista original: ");
-        System.out.println(lista);
-        System.out.println("\nLista sin repetidos: ");
-        System.out.println(sinRepetidos);
+        System.out.println("Lista original: " + lista);
+        System.out.println("Lista sin repetidos: " + sinRepetidos);
     }
 }
