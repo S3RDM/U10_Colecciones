@@ -6,7 +6,7 @@ public class A02 {
         ArrayList<Integer> numeros = new ArrayList<>();
         try (Scanner sc = new Scanner(System.in)){
             int num;
-            System.out.println("Introducir números enteros no negativos (-1 para terminar): ");
+            System.out.println("Introducir numeros enteros no negativos (-1 para terminar): ");
             while(true){
                 try{
                     num = sc.nextInt();
@@ -24,9 +24,8 @@ public class A02 {
                 }
             }
         }
-        System.out.println("\nColección completa: ");
-        System.out.println(numeros);
-        System.out.println("\nNúmeros pares: ");
+        System.out.println("Lista completa: " + numeros);
+        System.out.print("Numeros pares: ");
         for(int n : numeros){
             if(n % 2 == 0){
                 System.out.print(n + " ");
@@ -38,7 +37,6 @@ public class A02 {
                 it.remove();
             }
         }
-        System.out.println("\n\nColección tras eliminar múltiplos de 3: ");
-        System.out.println(numeros);
+        System.out.println("\nLista tras eliminar multiplos de 3: " + numeros);
     }
 }
