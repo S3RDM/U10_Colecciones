@@ -9,15 +9,11 @@ public class A05 {
             int num = (int)(Math.random() * 10) + 1;
             lista.add(num);
         }
-
-        System.out.println("Lista original: ");
-        System.out.println(lista);
+        System.out.println("Lista original: " + lista);
 
         eliminar.add(5);
-
         lista.removeAll(eliminar);
 
-        System.out.println("\nLista tras eliminar los 5: ");
-        System.out.println(lista);
+        System.out.println("Lista tras eliminar los 5: " + lista);
     }
 }
