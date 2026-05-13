@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args){
-        ArrayList<Integer> premios = new ArrayList<>(Arrays.asList(1000,50,500,50,200));
+        List<Integer> premios = new ArrayList<>(Arrays.asList(1000,50,500,50,200));
         
         int premios50 = Collections.frequency(premios, 50);
         System.out.println("Cantidad de premios de 50: " + premios50);
